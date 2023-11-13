@@ -99,27 +99,16 @@ print(user_df.head())
 ## Tweets File Column Structure:
 
 1. 'text' - This column contains the actual text of the tweet. It includes the content posted by the user, excluding media attachments.
-
-3. 'id' - The unique identifier for the tweet. This is a numeric value that Twitter assigns to each tweet, which can be used to reference the specific tweet.
-
+2. 'id' - The unique identifier for the tweet. This is a numeric value that Twitter assigns to each tweet, which can be used to reference the specific tweet.
 3. 'author' - This field stores the username or handle of the Twitter user who posted the tweet. It helps in identifying the source of the tweet.
-
 4. 'created' - The creation date and time of the tweet. It is usually in a standard date-time format, indicating when the tweet was posted.
-
 5. 'replies_count' - A count of the number of replies to the tweet. This indicates how many times other users have responded directly to this tweet.
-
 6. 'likes_count' - This column shows the number of likes the tweet has received. It's an indicator of the tweet's popularity or user engagement.
-
 7. 'quotes_count' - The number of times the tweet has been quoted by other users. Quoting a tweet means other users have shared this tweet with their commentary.
-
 8. 'impression_count' - This represents the number of times the tweet was seen. This can be a key metric for measuring the reach or impact of the tweet.
-
 9. 'possibly_sensitive' - A boolean flag indicating whether the tweet contains content that users might find sensitive (e.g., violence, adult content). True means it may contain sensitive content.
-
 10. 'conversation_id' - The identifier for the conversation to which the tweet belongs. This helps in linking tweets that are part of the same conversation or thread.
-
-11. ONLY IN STEMMED FILES 'RT' - whether a tweet is a RT or not 
-
+11. ONLY IN STEMMED FILES 'RT' - whether a tweet is a RT or not
 12. ONLY IN STEMMED FILES 'stemmed' - stemmed Tweet content
 ---
 
